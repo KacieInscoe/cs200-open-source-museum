@@ -1,0 +1,232 @@
+:: StoryTitle
+cs200
+
+
+:: StoryData
+{
+  "ifid": "E8F3108D-E4DB-4E86-9E80-01FA95E7DCA2",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "start point",
+  "zoom": 1
+}
+
+
+:: End {"position":"975,2175","size":"100,100"}
+You finished the quiz!
+
+Your score: $score / 5
+
+(if: $score is 5)[
+Perfect score! Great job!
+]
+(elseif: $score >= 3)[
+Good job! You understand open source well.
+]
+(else:)[
+You might want to review open source concepts.
+]
+
+
+:: Examples of open source {"position":"350,600","size":"100,100"}
+Linux
+- A free open sourc eoperationg system that use used on many things from personal computers to servers and is know for having many variations for many use cases.
+
+Git
+- Free open source that allows you to share repositiories and allows many people to make work on projects at the same time from different computers.
+
+VS Code
+-Its a free open source code editor that supports many laungaages and extentions to add in new features.
+
+Audacity
+-Its a free open source audio editing program that allows users to record edit and mix sounds easier
+
+Android
+-Android at its core is a open source oporation used for mobile divices like phones and tablets. It is developed by good and allows developers to make custom experiences for their phones
+
+
+
+[[what is open source]]
+
+
+
+:: History of open source {"position":"300,1075","size":"100,100"}
+open source was started in academics when people wouid share software freely. It became an offical thing in the 1980's to help combat proprietary software.  The name Open Souce became offical in 1998.
+
+Now open source has become so large that it powers many things from phones and smart watches to major servers
+
+
+
+[[what is open source]]
+
+
+
+:: Q1 {"position":"850,1550","size":"100,100"}
+What is open source?
+
+[[Software with publicly available code->correct1]]
+
+[[Software that costs money->wrong1]]
+[[A type of hardware->wrong1]]
+
+
+:: Q2 {"position":"975,1675","size":"100,100"}
+Git is used for:
+
+[[Version control->correct2]]
+[[Watching videos->wrong2]]
+[[Editing images->wrong2]]
+
+
+:: Q3 {"position":"975,1800","size":"100,100"}
+Which of the following is an open source operating system?
+
+[[Linux->correct3]]
+[[Windows->wrong3]]
+[[macOS->wrong3]]
+
+
+:: Q4 {"position":"975,1925","size":"100,100"}
+What is a benefit of open source software?
+
+[[Anyone can view and improve the code->correct4]]
+[[It is always expensive->wrong4]]
+[[It cannot be changed->wrong4]]
+
+
+:: Q5 {"position":"975,2050","size":"100,100"}
+What does Git help developers do?
+
+[[Track and manage changes in code->correct5]]
+[[Play video games->Wrong5]]
+[[Edit images->Wrong5]]
+
+
+:: Quiz {"position":"850,1425","size":"100,100"}
+(set: $score to 0)
+Welcome to the open source quiz
+[[Start Quiz->Q1]]
+
+
+
+:: What bad has come from open source {"position":"675,1275","size":"100,100"}
+Open source can have drawbacks like security risks if projects aren’t well maintained, lack of consistent support or updates, and compatibility issues between versions. It can also be difficult for beginners, has no guaranteed accountability, and may vary in quality since anyone can contribute.
+
+[[what is open source]]
+
+
+
+:: What good has open source done {"position":"900,600","size":"100,100"}
+Open source speeds up innovation by letting people share and reuse code. It improves security through public review, helps learners study real-world code, reduces reliance on single companies, and results in more reliable and customizable software.
+
+
+[[what is open source]]
+
+ 
+
+
+:: Why is open source important {"position":"950,975","size":"100,100"}
+Open source helps make some technology accessible to everybody. Anybody can see use and improve apon it which helps form a comunnity that pushes learnings and innovation.
+
+It helps keep the programs intents transparent because anybody can view the code. It helps drive innovation and quickly fis issues aswell as getting people interested in learning about coding.
+
+
+[[what is open source]]
+
+
+
+:: Wrong5 {"position":"850,2175","size":"100,100"}
+Wrong the correct answer is 
+
+Track and manage changes in code
+
+[[End]]
+
+
+:: correct1 {"position":"725,1675","size":"100,100"}
+(set: $score to $score + 1)
+Correct
+
+[[Question 2->Q2]]
+
+
+:: correct2 {"position":"1100,1800","size":"100,100"}
+(set: $score to $score + 1)
+Correct
+
+[[Question 3->Q3]]
+
+
+:: correct3 {"position":"1100,1925","size":"100,100"}
+(set: $score to $score + 1)
+Correct
+
+[[Question 4->Q4]]
+
+
+:: correct4 {"position":"1100,2050","size":"100,100"}
+(set: $score to $score + 1)
+Correct
+
+[[Question 5->Q5]]
+
+
+:: correct5 {"position":"1100,2175","size":"100,100"}
+(set: $score to $score + 1)
+Correct
+
+[[End]]
+
+
+:: start point {"position":"625,425","size":"100,100"}
+[[what is open source]] 
+
+
+:: what is open source {"position":"625,825","size":"100,100"}
+Open source software has code that is avilible for anybody to see, use and change. this allows people to understand how the software works and and could evem allow them to modify it to their own needs
+
+Peoples from all around the world can help fix issues the program may have or add feathures they feel it is missing and share those chnages with others
+
+
+[[Why is open source important]]
+
+[[What good has open source done]]
+
+[[History of open source]] 
+
+[[What bad has come from open source]] 
+
+[[Examples of open source]] 
+[[Quiz]] 
+
+
+:: wrong1 {"position":"850,1675","size":"100,100"}
+Wrong the correct answer is 
+
+Software with publicly available code
+
+[[Question 2->Q2]]
+
+
+:: wrong2 {"position":"850,1800","size":"100,100"}
+Wrong the correct answer is 
+
+Version Control
+
+[[Question 3->Q3]]
+
+
+:: wrong3 {"position":"850,1925","size":"100,100"}
+Wrong the correct answer is 
+
+Linux
+
+[[Question 4->Q4]]
+
+
+:: wrong4 {"position":"850,2050","size":"100,100"}
+Wrong the correct answer is 
+
+Anyone can view and improve the code
+
+[[Question 5->Q5]]
