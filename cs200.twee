@@ -49,7 +49,6 @@ Android
 [[what is open source]]
 
 
-
 :: History of open source {"position":"300,1075","size":"100,100"}
 open source was started in academics when people wouid share software freely. It became an offical thing in the 1980's to help combat proprietary software.  The name Open Souce became offical in 1998.
 
@@ -60,13 +59,13 @@ Now open source has become so large that it powers many things from phones and s
 [[what is open source]]
 
 
-
 :: Q1 {"position":"850,1550","size":"100,100"}
 What is open source?
 
 [[Software with publicly available code->correct1]]
 
 [[Software that costs money->wrong1]]
+
 [[A type of hardware->wrong1]]
 
 
@@ -103,10 +102,7 @@ What does Git help developers do?
 
 
 :: Quiz {"position":"850,1425","size":"100,100"}
-(set: $score to 0)
-Welcome to the open source quiz
 [[Start Quiz->Q1]]
-
 
 
 :: What bad has come from open source {"position":"675,1275","size":"100,100"}
@@ -115,14 +111,11 @@ Open source can have drawbacks like security risks if projects aren’t well mai
 [[what is open source]]
 
 
-
 :: What good has open source done {"position":"900,600","size":"100,100"}
 Open source speeds up innovation by letting people share and reuse code. It improves security through public review, helps learners study real-world code, reduces reliance on single companies, and results in more reliable and customizable software.
 
 
 [[what is open source]]
-
- 
 
 
 :: Why is open source important {"position":"950,975","size":"100,100"}
@@ -132,7 +125,6 @@ It helps keep the programs intents transparent because anybody can view the code
 
 
 [[what is open source]]
-
 
 
 :: Wrong5 {"position":"850,2175","size":"100,100"}
@@ -179,7 +171,7 @@ Correct
 
 
 :: start point {"position":"625,425","size":"100,100"}
-[[what is open source]] 
+[[what is open source]]
 
 
 :: what is open source {"position":"625,825","size":"100,100"}
@@ -196,8 +188,9 @@ Peoples from all around the world can help fix issues the program may have or ad
 
 [[What bad has come from open source]] 
 
-[[Examples of open source]] 
-[[Quiz]] 
+[[Examples of open source]]
+
+[[Quiz]]
 
 
 :: wrong1 {"position":"850,1675","size":"100,100"}
@@ -230,3 +223,34 @@ Wrong the correct answer is
 Anyone can view and improve the code
 
 [[Question 5->Q5]]
+
+
+:: StoryStylesheet [stylesheet]
+tw-story {
+  background-color: #222222;
+  color: #2c3e50;
+}
+
+tw-passage {
+  background: #344C6E;
+  color: #C7DAFF;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 750px;
+  margin: 20px auto;
+  line-height: 1.7;
+}
+
+tw-link {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+tw-link:hover {
+  color: #B0D7FF;
+  border-bottom: 5px solid #82A0BA;
+}
